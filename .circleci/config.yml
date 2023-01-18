@@ -14,7 +14,7 @@ jobs:
               --region us-east-1
 # Sequential workflow
 workflows:
-  # Name the workflow
+  # Name the workflow 
   create-aws-infrastructure:
     jobs:
       - create_infrastructure
